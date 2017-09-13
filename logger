@@ -33,7 +33,7 @@ with open(logfile_path, "a") as logfile:
                 delimeter \
                 .join([" ".join(usage.split()) for usage in usages])
 
-            log_entry = date + delimeter + ps_output + delimeter + usages
+            log_entry = date + delimeter + load_averages + delimeter + usages
             logfile.write(log_entry)
 
             time.sleep(sample_time)  # sleep
