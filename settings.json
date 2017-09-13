@@ -1,0 +1,8 @@
+{
+    "pids": [""],
+    "ps output arguments": "pid,comm,%cpu,%mem",
+    "delimeter": ";",
+    "sample time": 5,
+    "load averages filepath": "/proc/loadavg",
+    "logfile path": "./output.log"
+}
